@@ -211,7 +211,8 @@ class DrumMachine extends React.Component {
         this.setState({
           power: false,
           powerStyle: offStyle,
-          boxStyle: offBox
+          boxStyle: offBox,
+          display: ''
         })
       } else {
         this.setState({
